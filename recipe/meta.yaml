@@ -1,5 +1,5 @@
 {% set name = "interegular" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/interegular-{{ version }}.tar.gz
-  sha256: ea4645abace93d9f39d341205686a60b79777a43d94400933effb9c8f2901825
+  sha256: d9b697b21b34884711399ba0f0376914b81899ce670032486d0d048344a76600
 
 build:
   noarch: python
