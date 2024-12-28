@@ -18,6 +18,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
 
@@ -31,7 +32,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/MegaIng/regex_intersections
+  home: https://github.com/MegaIng/interegular
   summary: a regex intersection checker
   license: MIT
   license_file: LICENSE.txt
